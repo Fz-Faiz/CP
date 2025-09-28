@@ -26,4 +26,14 @@ int main() {
     printBinary(a ^ (1<<i));
     // count
     cout << __builtin_popcount(a);
+    // divide by 2
+    cout << (a>>1);
+    // multiple by 2
+    cout << (a<<1);
+    // Uppercase to Lowercase
+    cout << char('B' | ' ');
+    // Lowercase to Uppercase
+    cout << char('b' | '_');
+    // check power of 2
+    cout <<  (a & (a-1));
 }
