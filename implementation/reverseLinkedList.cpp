@@ -24,3 +24,6 @@ Node* reverseList(Node* head){
 
     return prev;
 }
+
+// TC : O(N)
+// SC : O(1)
